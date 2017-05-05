@@ -1,4 +1,4 @@
-#kjør i administrator powershell med START http://boxstarter.org/package/nr/url?<lokal path eller http link til raw tekst(goo.gl shorten)>
+#kjÃ¸r i administrator powershell med START http://boxstarter.org/package/nr/url?<lokal path eller http link til raw tekst(goo.gl shorten)>
 Update-ExecutionPolicy Unrestricted
 
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
@@ -19,12 +19,11 @@ cinst -y Gow
 cinst -y git.install
 cinst -y poshgit
 cinst -y git-credential-winstore
-cinst -y github
+#broken cinst -y github
 cinst -y gitkraken
 
 #web (node yarn) 
 cinst -y nodejs.install
-#npm install -g npm-windows-upgrade
 cinst -y yarn
 
 #visual studio og visual studio code
